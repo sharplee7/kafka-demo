@@ -18,6 +18,6 @@ public class GreetingServiceImpl implements GreetingService {
 //            throw new Exception("사용자 정의 에러를 임의로 발생");
 //        }
         // Respose body에 넣을 임의의 데이터 생성
-        return new Courtesy("LG CNS","I'm fine and you?");
+        return new Courtesy("Guest","Hi there? I'm fine and you?");
     }
 }
